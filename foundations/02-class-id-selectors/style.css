@@ -1,0 +1,21 @@
+html {
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.container {
+    background-color: rgb(211, 155, 165);
+}
+
+#one {
+    color: aqua;
+    font-size: 36px;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: rgb(178, 211, 168);
+    font-size: 24px;
+}
