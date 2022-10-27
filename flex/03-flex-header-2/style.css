@@ -4,14 +4,31 @@ you'll learn about it later. */
 
 body {
   margin: 0;
+  border: 0;
   background: #eee;
   font-family: Besley, serif;
 }
 
+.links {
+
+  padding: 0;
+}
+
+.link__right {
+}
+
 .header {
+
+  padding: 0 1em;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
 }
 
 .profile-image {
@@ -23,6 +40,7 @@ body {
 }
 
 .logo {
+
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;

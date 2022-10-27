@@ -1,4 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .4em;
   font-family: monospace;
   background: papayawhip;
 }
@@ -9,6 +17,11 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+}
+
+.row {
+  display: flex;
+  gap: .5em;
 }
 
 ul {
